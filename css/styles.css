@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Play';
+  src: url('fonts/Play-Regular.eot');
+  src: url('fonts/Play-Regular?#iefix') format('embedded-opentype'),
+    url('fonts/Play-Regular.svg#Locaweb-Icons') format('svg'),
+    url('fonts/Play-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cabin';
+  src: url('fonts/Cabin-Regular.eot');
+  src: url('fonts/Cabin-Regular?#iefix') format('embedded-opentype'),
+    url('fonts/Cabin-Regular.svg#Locaweb-Icons') format('svg'),
+    url('fonts/Cabin-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: #e7e7e7;
+}
+
+.header {
+	background-color: #fff;
+	height: 225px;
+	width: 100%;
+}
+
+.header #logo-mini {
+	margin-left: 200px;
+	margin-top: 40px;
+}
+
+.header #menu {
+	list-style: none;
+	display: inline-block;
+	float: right;
+	margin-top: 55px;
+	margin-right: 200px;
+}
+
+.header #menu li {
+	display: inline;
+	margin-left: 30px;
+}
+
+.header #menu li a {
+	font-family: Play;
+	text-decoration: none;
+	color: #000;
+	border-bottom: 2px solid #fff;
+	-webkit-transition:	all 1s linear;
+	-moz-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	transition: all 1s linear;
+}
+
+.header #menu li a:hover {
+	border-bottom-color: #1ca560;
+	color: #134174;
+	-webkit-transition:	all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+
+.header #main-text {
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 3px solid #000;
+	width: 600px;
+	height: 70px;
+	border-radius: 10px;
+	color: #525252;
+	-webkit-transition:	all 1s linear;
+	-moz-transition: all 1s linear;
+	-o-transition: all 1s linear;
+	transition: all 1s linear;
+}
+
+.header #main-text:hover {
+	border-color: #134174;
+	background-color: #134174;
+	color: #1ca560;
+	cursor: pointer;
+	-webkit-transition:	all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+
+.header #main-text p {	
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	margin-top: -1px;
+	font-family: Cabin;
+	font-size: 30px;
+	text-align: center;
+}
+
+.divisor {
+	width: 100%;
+	height: 20px;
+	background: rgba(19,64,116,1);
+	background: -moz-linear-gradient(left, rgba(19,64,116,1) 0%, rgba(28,165,96,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(19,64,116,1)), color-stop(100%, rgba(28,165,96,1)));
+	background: -webkit-linear-gradient(left, rgba(19,64,116,1) 0%, rgba(28,165,96,1) 100%);
+	background: -o-linear-gradient(left, rgba(19,64,116,1) 0%, rgba(28,165,96,1) 100%);
+	background: -ms-linear-gradient(left, rgba(19,64,116,1) 0%, rgba(28,165,96,1) 100%);
+	background: linear-gradient(to right, rgba(19,64,116,1) 0%, rgba(28,165,96,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#134074', endColorstr='#1ca560', GradientType=1 );
+}
