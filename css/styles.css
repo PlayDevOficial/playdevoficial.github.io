@@ -52,45 +52,45 @@ body {
 	font-family: Play;
 	text-decoration: none;
 	color: #000;
-	border-bottom: 2px solid #fff;
-	-webkit-transition:	all 1s linear;
-	-moz-transition: all 1s linear;
-	-o-transition: all 1s linear;
-	transition: all 1s linear;
+	border-radius: 2px;
+	border-bottom: 2px solid #134174;
+	-webkit-transition:	all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
 }
 
 .header #menu li a:hover {
 	border-bottom-color: #1ca560;
 	color: #134174;
-	-webkit-transition:	all 0.5s linear;
-	-moz-transition: all 0.5s linear;
-	-o-transition: all 0.5s linear;
-	transition: all 0.5s linear;
+	-webkit-transition:	all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
 }
 
 .header #main-text {
 	margin: 0 auto;
 	margin-top: 30px;
-	border: 3px solid #000;
+	background-color: #134174;
 	width: 600px;
 	height: 70px;
 	border-radius: 10px;
-	color: #525252;
-	-webkit-transition:	all 1s linear;
-	-moz-transition: all 1s linear;
-	-o-transition: all 1s linear;
-	transition: all 1s linear;
+	color: #1ca560;
+	-webkit-transition:	all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
 }
 
 .header #main-text:hover {
-	border-color: #134174;
-	background-color: #134174;
-	color: #1ca560;
+	background-color: #1ca560;
+	color: #134174;
 	cursor: pointer;
-	-webkit-transition:	all 0.5s linear;
-	-moz-transition: all 0.5s linear;
-	-o-transition: all 0.5s linear;
-	transition: all 0.5s linear;
+	-webkit-transition:	all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
 }
 
 .header #main-text p {	
@@ -105,7 +105,7 @@ body {
 
 .divisor {
 	width: 100%;
-	height: 20px;
+	height: 10px;
 	background: rgba(19,64,116,1);
 	background: -moz-linear-gradient(left, rgba(19,64,116,1) 0%, rgba(28,165,96,1) 100%);
 	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(19,64,116,1)), color-stop(100%, rgba(28,165,96,1)));
@@ -114,4 +114,62 @@ body {
 	background: -ms-linear-gradient(left, rgba(19,64,116,1) 0%, rgba(28,165,96,1) 100%);
 	background: linear-gradient(to right, rgba(19,64,116,1) 0%, rgba(28,165,96,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#134074', endColorstr='#1ca560', GradientType=1 );
+}
+
+.circles {
+	width: 100%;
+	height: 150px;
+	display: table;
+}
+
+.circle {
+	float: left;
+	margin-top: 2%;
+	margin-left: 14%;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: #134174;
+	text-align: center;
+}
+
+.circle:hover {
+	cursor: pointer;
+}
+
+i.icon {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+    -webkit-transition:	all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+i.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;  /* Preferred icon size */
+  text-align: center;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  color: #1ca560;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
 }
