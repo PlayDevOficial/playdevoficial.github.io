@@ -1,7 +1,7 @@
 body {
 	margin: 0px;
 	padding: 0px;
-	background-color: #e7e7e7;
+	background-color: #fff;
 }
 
 .header {
@@ -182,7 +182,6 @@ i.material-icons {
 	float: left;
 	width: 100%;
 	display: table;
-	margin-bottom: 5%;
 }
 
 .row {
@@ -215,12 +214,58 @@ i.material-icons {
 	text-align: center;
 }
 
+.right-content-inverse h2,
 .right-content h2 {
 	color: #097a41;
 	font-family: Dosis;
 }
 
+.right-content-inverse p,
 .right-content p {
 	color: #134174;
 	font-family: Play;
+}
+
+.left-content-inverse img {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 100%;
+	width: 97%;
+	float: right;
+	border-radius: 10px;
+	-moz-box-shadow: 1px 1px 1px 1px #ccc;
+    -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+    box-shadow: 1px 1x 1px 1px #ccc;
+}
+
+.left-content-inverse {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	height: 90%;
+	width: 38%;
+	float: right;
+}
+
+.right-content-inverse {
+	width: 62%;
+	height: 100%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	float: left;
+	text-align: center;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.rodape p {
+	font-family: Verdana;
+	color: #134174;
 }
